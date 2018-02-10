@@ -27,6 +27,8 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src'),
+      TweenLite:'gsap/TweenLite.js'
+      // TweenLite:resolve('static')+"plugins/TweenLite.js"
     }
   },
   module: {

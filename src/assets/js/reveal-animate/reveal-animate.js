@@ -1,5 +1,6 @@
 // REVEAL ANIMATE
-import {WOW} from 'wowjs';
+import '../../../../static/plugins/reveal-animate/wow';
+
 var revealAnimate = function() {
 
 	var _init = function() {
