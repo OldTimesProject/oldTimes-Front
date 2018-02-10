@@ -23,7 +23,7 @@ import '../static/plugins/cubeportfolio/css/cubeportfolio.css';
 import '../static/plugins/owl-carousel/assets/owl.carousel.css';
 import '../static/plugins/fancybox/jquery.fancybox.css';
 import '../static/plugins/slider-for-bootstrap/css/slider.css';
-
+// import '../static/plugins/typo/typo.css';
 import './assets/css/plugins.css';
 import './assets/css/components.css';
 import './assets/css/theme.css';

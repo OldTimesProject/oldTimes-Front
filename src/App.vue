@@ -380,9 +380,9 @@
                      data-endspeed="600"
 
                 >
-                  <h3 class="c-main-title c-font-40 c-font-bold c-font-uppercase c-font-white c-center">
-                    Incredibly robust
-                    for any concept
+                  <h3 class="c-main-title c-font-40 c-font-bold c-font-white c-center">
+                    <!--每个生活中的点滴都值得被铭记-->
+                    亿万人之中，我只属于你
                   </h3>
                 </div>
                 <!--END -->
@@ -406,9 +406,8 @@
                      data-endspeed="600"
 
                 >
-                  <p class="c-font-20 c-line-height-28 c-font-white c-opacity-07 c-font-thin c-center c-sub-title">
-                    Lorem ipsum dolor sit amet, consectetuer
-                    elit sed<br> et nibh euismod aliquam sed
+                  <p class="c-font-20 c-line-height-30 c-font-white c-opacity-07 c-font-thin c-center c-sub-title">
+                    随手一拍，记录生活中每个精彩点滴<br>
                   </p>
                 </div>
                 <!--END -->
@@ -423,29 +422,29 @@
                      data-start="2000"
                      data-transform_in="x:0;y:0;z:0;rotationX:0.5;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;"
                      data-transform_out="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;" >
-                  <a href="#" class="c-action-btn btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase">Explore</a>
+                  <a href="#" class="c-action-btn btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase">立即体验</a>
                 </div>
                 <!--END -->
               </li>
               <!--END -->
 
               <!--BEGIN: SLIDE #2 -->
+
               <li data-transition="fade" data-slotamount="1" data-masterspeed="1000">
                 <img
                   alt=""
-                  src="../static/images/content/backgrounds/bg-57.jpg"
+                  src="../static/images/content/backgrounds/bg-61.jpg"
                   data-bgposition="center center"
                   data-bgfit="cover"
                   data-bgrepeat="no-repeat"
                 >
 
                 <!--BEGIN: MAIN TITLE -->
-                <div class="tp-caption customin customout"
+                <div class="tp-caption customin customout tp-resizeme"
                      data-x="center"
                      data-y="center"
-                     data-hoffset=""
-                     data-voffset="-30"
-
+                     data-hoffset="[-350,-350, -150, -150]"
+                     data-voffset="-180"
                      data-speed="500"
                      data-start="1000"
                      data-transform_in="x:0;y:0;z:0;rotationX:0.5;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;"
@@ -458,24 +457,49 @@
                      data-endspeed="600"
 
                 >
-                  <h3 class="c-main-title c-font-55 c-font-bold c-font-center c-font-uppercase c-font-white">
-                    Beautiful HTML & CSS<br>
-                    Ready to launch
+                  <h3 class="c-main-title c-font-44 c-font-bold  c-font-white ">
+                    Life Writes the Best Stories
                   </h3>
                 </div>
                 <!--END -->
 
-                <!--BEGIN: ACTION BUTTON -->
-                <div class="tp-caption randomrotateout"
+                <!--BEGIN: SUB TITLE -->
+                <div class="tp-caption customin customout tp-resizeme"
                      data-x="center"
                      data-y="center"
-                     data-hoffset=""
-                     data-voffset="120"
+                     data-hoffset="[-345,-345, -145, -145]"
+                     data-voffset="-70"
                      data-speed="500"
                      data-start="1500"
                      data-transform_in="x:0;y:0;z:0;rotationX:0.5;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;"
-                     data-transform_out="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;" >
-                  <a href="http://themeforest.net/item/jango-responsive-multipurpose-html5-template/11987314" class="c-action-btn btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase">Purchase</a>
+                     data-transform_out="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:600;e:Back.easeInOut;"
+
+                     data-splitin="none"
+                     data-splitout="none"
+                     data-elementdelay="0.1"
+                     data-endelementdelay="0.1"
+                     data-endspeed="600"
+                >
+                  <p class="c-sub-title c-font-24 c-font-white ">
+                    Lorem ipsum dolor sit amet, consectetuer et<br>
+                    Dolor sit amet, consectetuer et nibh<br>
+                    elit sed diam nonummy et nibh<br>
+                  </p>
+                </div>
+                <!--END -->
+
+                <!--BEGIN: ACTION BUTTON -->
+                <div class="tp-caption randomrotateout tp-resizeme"
+                     data-x="center"
+                     data-y="center"
+                     data-hoffset="[-470,-470, -270, -270]"
+                     data-voffset="45"
+                     data-speed="500"
+                     data-start="2000"
+                     data-transform_in="x:0;y:0;z:0;rotationX:0.5;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:500;e:Back.easeInOut;"
+                     data-transform_out="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;s:600;e:Back.easeInOut;" >
+                  <a href="#" class="c-action-btn btn btn-lg c-btn-square c-btn-bold c-btn-border-2x c-theme-btn c-btn-uppercase">查看详情</a>
+
                 </div>
                 <!--END -->
               </li>
@@ -484,153 +508,6 @@
           </div>
         </div>
       </section><!-- END: LAYOUT/SLIDERS/REVO-SLIDER-6 -->
-
-
-
-      <!-- BEGIN: LAYOUT/SLIDERS/REVO-SLIDER-1 -->
-      <!-- START REVOLUTION SLIDER 5.0 -->
-
-      <!--<section class="c-layout-revo-slider c-layout-revo-slider-1" dir="ltr">-->
-        <!--<div class="tp-banner-container tp-fullscreen tp-fullscreen-mobile">-->
-          <!--<div class="tp-banner rev_slider" data-version="5.0">-->
-
-            <!--<ul>-->
-              <!--&lt;!&ndash; SLIDE #1 &ndash;&gt;-->
-              <!--<li data-transition="fade">-->
-                <!--&lt;!&ndash; MAIN IMAGE &ndash;&gt;-->
-                <!--<img src="../static/images/content/backgrounds/bg-11.jpg"  alt="" >-->
-                <!--&lt;!&ndash; LAYER NR. 1 &ndash;&gt;-->
-                <!--<div class="tp-caption customin customout"-->
-                     <!--data-x="center"-->
-                     <!--data-y="center"-->
-                     <!--data-hoffset=""-->
-                     <!--data-voffset="-30"-->
-
-                     <!--data-start="1500"-->
-
-                     <!--data-transform_in="x:0;y:0;z:0;rX:0.5;rY:0;rZ:0;sX:0.75;sY:0.75;skX:0;skY:0;opacity:0;s:600;e:Power2.easeInOut;"-->
-                     <!--data-transform_out="x:0;y:0;z:0;rX:0.5;rY:0;rZ:0;sX:0.75;sY:0.75;skX:0;skY:0;opacity:0;s:600;e:Power2.easeInOut;"-->
-                     <!--data-splitin="none"-->
-                     <!--data-splitout="none"-->
-                     <!--data-elementdelay="0.1"-->
-                     <!--data-endelementdelay="0.1"-->
-                     <!--data-endspeed="600"-->
-                <!--&gt;-->
-                  <!--<h3 class="c-main-title c-font-55 c-font-bold c-font-center c-font-uppercase c-font-white c-block">-->
-                    <!--Meet JANGO<br>-->
-                    <!--The Ever Growing HTML5 Theme-->
-                  <!--</h3>-->
-                <!--</div>-->
-                <!--&lt;!&ndash; LAYER NR. 2 &ndash;&gt;-->
-                <!--<div class="tp-caption randomrotateout"-->
-                     <!--data-x="center"-->
-                     <!--data-y="center"-->
-                     <!--data-hoffset=""-->
-                     <!--data-voffset="120"-->
-                     <!--data-transform_in="x:0;y:0;z:0;rX:0.5;rY:0;rZ:0;sX:0.75;sY:0.75;skX:0;skY:0;opacity:0;s:600;e:Power2.easeInOut;"-->
-                     <!--data-transform_out="x:0;y:0;z:0;rX:0.5;rY:0;rZ:0;sX:0.75;sY:0.75;skX:0;skY:0;opacity:0;s:600;e:Power2.easeInOut;"-->
-                     <!--data-start="2000"-->
-                     <!--data-easing="Back.easeOut">-->
-                  <!--<a href="#" class="c-action-btn btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase">Explore</a>-->
-                <!--</div>-->
-              <!--</li>-->
-              <!--&lt;!&ndash; END SLIDE #1 &ndash;&gt;-->
-              <!--&lt;!&ndash; SLIDE #2 &ndash;&gt;-->
-              <!--<li data-transition="fade">-->
-                <!--&lt;!&ndash; MAIN IMAGE &ndash;&gt;-->
-                <!--<img src="../static/images/content/backgrounds/bg-18.jpg"  alt=""  >-->
-                <!--&lt;!&ndash; LAYER NR. 1 &ndash;&gt;-->
-                <!--<div class="tp-caption customin customout"-->
-                     <!--data-x="center"-->
-                     <!--data-y="center"-->
-                     <!--data-hoffset=""-->
-                     <!--data-voffset="-30"-->
-
-                     <!--data-start="1500"-->
-                     <!--data-transform_in="x:0;y:0;z:0;rX:0.5;rY:0;rZ:0;sX:0.75;sY:0.75;skX:0;skY:0;opacity:0;s:600;e:Power2.easeInOut;"-->
-                     <!--data-transform_out="x:0;y:0;z:0;rX:0.5;rY:0;rZ:0;sX:0.75;sY:0.75;skX:0;skY:0;opacity:0;s:600;e:Back.easeOut;"-->
-                     <!--data-splitin="none"-->
-                     <!--data-splitout="none"-->
-                     <!--data-elementdelay="0.1"-->
-                     <!--data-endelementdelay="0.1"-->
-                     <!--data-endspeed="600"-->
-                <!--&gt;-->
-                  <!--<h3 class="c-main-title c-font-55 c-font-bold c-font-center c-font-uppercase c-font-white c-block">-->
-                    <!--One JANGO<br>-->
-                    <!--For every need-->
-                  <!--</h3>-->
-                <!--</div>-->
-                <!--&lt;!&ndash; LAYER NR. 2 &ndash;&gt;-->
-                <!--<div class="tp-caption randomrotateout"-->
-                     <!--data-x="center"-->
-                     <!--data-y="center"-->
-                     <!--data-hoffset=""-->
-                     <!--data-voffset="120"-->
-                     <!--data-transform_in="x:0;y:0;z:0;rX:0.5;rY:0;rZ:0;sX:0.75;sY:0.75;skX:0;skY:0;opacity:0;s:600;e:Power2.easeInOut;"-->
-                     <!--data-transform_out="x:0;y:0;z:0;rX:0.5;rY:0;rZ:0;sX:0.75;sY:0.75;skX:0;skY:0;opacity:0;s:600;e:Back.easeOut;"-->
-                     <!--data-start="2000"-->
-                     <!--data-easing="Back.easeOut">-->
-                  <!--<a href="#" class="c-action-btn btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase">Explore</a>-->
-                <!--</div>-->
-              <!--</li>-->
-              <!--&lt;!&ndash; END SLIDE #2 &ndash;&gt;-->
-              <!--&lt;!&ndash; SLIDE #3 - VIDEO SLIDER &ndash;&gt;-->
-              <!--<li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="6000" data-thumb="">-->
-                <!--&lt;!&ndash; THE MAIN IMAGE IN THE FIRST SLIDE &ndash;&gt;-->
-                <!--<img src="../static/images/layout/sliders/revo-slider/base/blank.png" alt="">-->
-                <!--&lt;!&ndash; BACKGROUND VIDEO LAYER &ndash;&gt;-->
-                <!--<div class="rs-background-video-layer fulllscreenvideo tp-videolayer"-->
-                     <!--data-forcerewind="on"-->
-                     <!--data-volume="mute"-->
-                     <!--data-videowidth="100%"-->
-                     <!--data-videoheight="100%"-->
-                     <!--data-videomp4="../../assets/base/media/video/video-2.mp4"-->
-                     <!--data-videopreload="preload"-->
-                     <!--data-videoloop="loop"-->
-                     <!--data-forceCover="1"-->
-                     <!--data-aspectratio="16:9"-->
-                     <!--data-autoplay="true"-->
-                     <!--data-autoplayonlyfirsttime="false"-->
-                     <!--data-nextslideatend="true"></div>-->
-
-                <!--&lt;!&ndash; LAYER NR. 1 &ndash;&gt;-->
-                <!--<div class="tp-caption customin customout"-->
-                     <!--data-x="center"-->
-                     <!--data-y="center"-->
-                     <!--data-hoffset=""-->
-                     <!--data-voffset="-30"-->
-
-                     <!--data-start="1000"-->
-                     <!--data-transform_in="x:0;y:0;z:0;rX:0.5;rY:0;rZ:0;sX:0.75;sY:0.75;skX:0;skY:0;opacity:0;s:600;e:Power2.easeInOut;"-->
-                     <!--data-transform_out="x:0;y:0;z:0;rX:0.5;rY:0;rZ:0;sX:0.75;sY:0.75;skX:0;skY:0;opacity:0;s:600;e:Power2.easeInOut;"-->
-                     <!--data-splitin="none"-->
-                     <!--data-splitout="none"-->
-                     <!--data-elementdelay="0.1"-->
-                     <!--data-endelementdelay="0.1"-->
-                     <!--data-endspeed="600">-->
-                  <!--<h3 class="c-main-title c-font-55 c-font-bold c-font-center c-font-uppercase c-font-white c-block">-->
-                    <!--Design that speaks<br>to modern trends-->
-                  <!--</h3>-->
-                <!--</div>-->
-
-                <!--&lt;!&ndash; LAYER NR. 2 &ndash;&gt;-->
-                <!--<div class="tp-caption lf"-->
-                     <!--data-x="center"-->
-                     <!--data-y="center"-->
-                     <!--data-voffset="130"-->
-                     <!--data-speed="900"-->
-                     <!--data-start="2000"-->
-                     <!--data-transform_in="x:0;y:0;z:0;rX:0.5;rY:0;rZ:0;sX:0.75;sY:0.75;skX:0;skY:0;opacity:0;s:600;e:Power2.easeInOut;"-->
-                     <!--data-transform_out="x:0;y:0;z:0;rX:0.5;rY:0;rZ:0;sX:0.75;sY:0.75;skX:0;skY:0;opacity:0;s:600;e:Power2.easeInOut;" >-->
-                  <!--<a href="http://themeforest.net/item/jango-responsive-multipurpose-html5-template/11987314" class="c-action-btn btn btn-lg c-btn-square c-btn-border-2x c-btn-white c-btn-bold c-btn-uppercase">Purchase</a>-->
-                <!--</div>-->
-              <!--</li>-->
-            <!--</ul>-->
-          <!--</div>&lt;!&ndash; END REVOLUTION SLIDER &ndash;&gt;-->
-        <!--</div>&lt;!&ndash; END OF SLIDER WRAPPER &ndash;&gt;-->
-      <!--</section>&lt;!&ndash; END: LAYOUT/SLIDERS/REVO-SLIDER-1 &ndash;&gt;-->
-
-
 
       <section id="product">
         <!-- BEGIN: CONTENT/PRODUCTS/PRODUCT-1 -->
@@ -1000,10 +877,9 @@
                 </ul>
               </div>
               <p class="c-contact">
-                25, Lorem Lis Street, Orange C, California, US<br>
-                Phone: 800 123 3456<br>
-                Fax: 800 123 3456<br>
-                Skype: jango.inc
+                联系电话: 199-2103-0113<br>
+                联系地址：海市徐汇区虹梅路2007号<br>
+                邮政编码: 200030
               </p>
               <ul class="c-socials">
                 <li><a href="#"><i class="icon-social-twitter"></i></a></li>
@@ -1014,12 +890,12 @@
             </div>
             <div class="col-md-6 c-footer-4-p-left">
               <div class="c-feedback">
-                <h3 class="c-font-thin">Contact Us</h3>
+                <h3 class="c-font-thin">联系我们</h3>
                 <form action="#">
-                  <input type="text" placeholder="Your Name" class="form-control">
-                  <input type="text" placeholder="Your Email" class="form-control">
-                  <textarea rows="8" name="message" placeholder="Write comment here ..." class="form-control"></textarea>
-                  <button type="submit" class="btn c-btn-white c-btn-border-2x c-btn-uppercase btn-lg c-btn-bold c-btn-square">Send</button>
+                  <input type="text" placeholder="请输入用户昵称" class="form-control">
+                  <input type="text" placeholder="请输入联系邮箱" class="form-control">
+                  <textarea rows="8" name="message" placeholder="请在此处输入您的观点 ..." class="form-control"></textarea>
+                  <button type="submit" class="btn c-btn-white c-btn-border-2x c-btn-uppercase btn-lg c-btn-bold c-btn-square">发送</button>
                 </form>
               </div>
             </div>
