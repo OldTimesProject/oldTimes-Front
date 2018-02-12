@@ -124,7 +124,8 @@
           </div>
         </div>
       </div>
-    </div><!-- END: CONTENT/USER/FORGET-PASSWORD-FORM -->
+    </div>
+    <!-- END: CONTENT/USER/FORGET-PASSWORD-FORM -->
     <!-- BEGIN: CONTENT/USER/SIGNUP-FORM -->
     <div class="modal fade c-content-login-form" id="signup-form" role="dialog">
       <div class="modal-dialog">
@@ -162,7 +163,8 @@
           </div>
         </div>
       </div>
-    </div><!-- END: CONTENT/USER/SIGNUP-FORM -->
+    </div>
+    <!-- END: CONTENT/USER/SIGNUP-FORM -->
     <!-- BEGIN: CONTENT/USER/LOGIN-FORM -->
     <div class="modal fade c-content-login-form" id="login-form" role="dialog">
       <div class="modal-dialog">
@@ -199,7 +201,7 @@
               </div>
               <div class="clearfix">
                 <div class="c-content-divider c-divider-sm c-icon-bg c-bg-grey c-margin-b-20">
-                  <span>or signup with</span>
+                  <span>第三方账号登录</span>
                 </div>
                 <ul class="c-content-list-adjusted">
                   <li>
@@ -230,7 +232,8 @@
           </div>
         </div>
       </div>
-    </div><!-- END: CONTENT/USER/LOGIN-FORM -->
+    </div>
+    <!-- END: CONTENT/USER/LOGIN-FORM -->
 
     <!-- BEGIN: LAYOUT/SIDEBARS/QUICK-SIDEBAR -->
     <nav class="c-layout-quick-sidebar">
@@ -913,6 +916,60 @@
 
 <script type="es6">
 export default {
-  name: 'Container'
+  name: 'Container',
+  mounted(){
+    let slider = $('.c-layout-revo-slider .tp-banner');
+    let onepageMode = $('.c-mega-menu-onepage-dots').size() > 0 ? true : false;
+    if (onepageMode) {
+      let api = slider.show().revolution({
+        sliderType: "standard",
+        sliderLayout: "fullscreen",
+        responsiveLevels: [2048, 1024, 778, 480],
+        gridwidth: [1170, 1024, 778, 480],
+        gridheight: [868, 768, 960, 720],
+        delay: 15000,
+        startwidth: 1170,
+        startheight: 1000,
+
+        navigation: {
+          keyboardNavigation: "off",
+          keyboard_direction: "horizontal",
+          mouseScrollNavigation: "off",
+          onHoverStop: "off",
+          bullets: {
+            style: "round",
+            enable: true,
+            hide_onmobile: false,
+            hide_onleave: true,
+            hide_delay: 200,
+            hide_delay_mobile: 1200,
+            hide_under: 0,
+            hide_over: 9999,
+            direction: "horizontal",
+            h_align: "center",
+            v_align: "bottom",
+            space: 5,
+            v_offset: 60,
+
+          },
+          touch: {
+            touchenabled: 'off',
+          }
+        },
+
+        spinner: "spinner2",
+
+        shadow: 0,
+        fullWidth: "off",
+        forceFullWidth: "off",
+
+        hideThumbsOnMobile: "on",
+        hideNavDelayOnMobile: 1500,
+        hideBulletsOnMobile: "on",
+        hideArrowsOnMobile: "on",
+        hideThumbsUnderResolution: 0
+      });
+    }
+  }
 }
 </script>
